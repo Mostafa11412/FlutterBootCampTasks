@@ -1,8 +1,9 @@
-This dart file is the answer of Task.
+This dart file is the answer of Task 4.
 
 HOW TO RUN: please run dart file in terminal with this command "dart run main.dart".
 
 Variables used:
+
 1- const Tax: constant double which is tax rate will be used to calculate price after tax.
 
 2- double totalPrice: will be used to store sum of items prices before adding tax.
