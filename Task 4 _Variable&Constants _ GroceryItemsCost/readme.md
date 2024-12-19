@@ -9,7 +9,7 @@ Variables used:
 
 3- double totalPriceAfterTax: will be used to store sum of items prices after adding tax.
 
-4- List<Map<String, double>> groceryItems: list of grocery items to store items in it.
+4- List<Map<String, double>> groceryItems: list of grocery items to store items in it, each Item Stored as Map of String Name as key and double price as value.
 
 
 First loop: to take grocery items from user as console input and store it in groceryItems list. 
