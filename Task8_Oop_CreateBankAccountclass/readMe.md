@@ -7,12 +7,14 @@ Variables:
 accountId as integer and account balance as double.
 
 both are private to disable access on them.
+
 =========================================================
 Constructors:
 
 First Constructor: default constructor initializing accoundId and balancd as parameters.
 
 Second Constructor: Named Constructor initializing accountId as parameter and initializing balance with default value 0.
+
 ==========================================================
 Functions:
 
@@ -34,10 +36,12 @@ Checking if amount of money is valid (not negative or zero).
 If amount is isnt postive error message will be printed.
 
 If amount is valid, amount will be added to balance and updated balance will be displayed to user.
+
 =============
 Display Account Info Function:
 
 display account id and accont balance to user.
+
 ======================================================
 ======================================================
 Main file:
@@ -72,6 +76,7 @@ Call withdraw function for account 2 with Postive amount and enough balance to t
 
 
 Call display function for account 2 to display Second account details after changes.
+
 ===========================================================
 Third Scenario:
 
@@ -88,4 +93,5 @@ Call deposit function for account 3 with Negative amount to test deposite logic.
 Call deposit function for account 3 with Postive amount passed to test deposite logic.
 
 Call display function for account 3 to display Third account details after changes.
+
 ===========================================================
