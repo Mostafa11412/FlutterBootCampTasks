@@ -47,8 +47,7 @@ Display Account Info Function:
 
 display account id and accont balance to user.
 
-======================================================
-======================================================
+========================================================================================
 
 Main file:
 
@@ -102,7 +101,6 @@ Call deposit function for account 3 with Negative amount to test deposite logic.
 Call deposit function for account 3 with Postive amount passed to test deposite logic.
 
 Call display function for account 3 to display Third account details after changes.
-![
-    
-](ThirdSceario_Output.png)
+![alt text](ThirdSceario_Output.png)
+
 ===========================================================
