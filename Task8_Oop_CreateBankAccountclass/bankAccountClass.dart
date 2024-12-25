@@ -8,10 +8,10 @@ class BankAccount {
 
   withdraw(double amount) {
     if (amount <= 0) {
-      print("Please Enter a postive amount of money");
+      print("Withdraw Failed: Please Enter a postive amount of money");
       print("================================================");
     } else if (amount > _balance) {
-      print("sorry, Available Balance is not enough :(");
+      print("Withdraw Failed: sorry, Available Balance is not enough :(");
 
       print("================================================");
     } else {
@@ -23,7 +23,7 @@ class BankAccount {
 
   deposit(double amount) {
     if (amount <= 0) {
-      print("Please Enter a postive amount of money");
+      print("Deposit Failed: Please Enter a postive amount of money");
       print("================================================");
     } else {
       _balance += amount;
