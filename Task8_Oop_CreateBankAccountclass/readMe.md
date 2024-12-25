@@ -65,7 +65,7 @@ Call withdraw function for account 1 with Postive amount to test withdraw logic.
 Call deposit function for account 1 with Postive amount to test deposite logic.
 
 Call display function for account 1 to display first account details after changes.
-
+![alt text](FirstSceario_Output.png)
 
 ===========================================================
 
@@ -83,6 +83,7 @@ Call withdraw function for account 2 with Postive amount and enough balance to t
 
 
 Call display function for account 2 to display Second account details after changes.
+![alt text](SecondSceario_Output.png)
 
 ===========================================================
 
@@ -101,5 +102,7 @@ Call deposit function for account 3 with Negative amount to test deposite logic.
 Call deposit function for account 3 with Postive amount passed to test deposite logic.
 
 Call display function for account 3 to display Third account details after changes.
-
+![
+    
+](ThirdSceario_Output.png)
 ===========================================================

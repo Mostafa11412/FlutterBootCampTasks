@@ -1,5 +1,5 @@
 class BankAccount {
-  int _accountId;
+  String _accountId;
   double _balance;
 
   BankAccount(this._accountId, this._balance);
