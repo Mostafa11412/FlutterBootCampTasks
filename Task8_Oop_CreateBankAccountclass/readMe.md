@@ -27,6 +27,7 @@ Then checking if account balance is sufficient.
 If amount is isnt postive or balance isnt sufficient error message will be printed.
 
 If amount is valid, amount will be withdrawn from balance and updated balance will be displayed to user.
+
 =============
 Deposit Function:
 Takes amount of money which will be added to account balance.
