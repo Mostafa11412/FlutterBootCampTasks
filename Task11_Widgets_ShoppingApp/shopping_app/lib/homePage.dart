@@ -20,9 +20,11 @@ class HomePage extends StatelessWidget {
         padding: const EdgeInsets.all(8.0), // Outer padding of the body.
         child: SingleChildScrollView(
           child: Column(
+            spacing: 10,
             crossAxisAlignment:
                 CrossAxisAlignment.start, // Aligns content to the start.
             children: [
+            
               Text(
                 "Our Products",
                 style: Theme.of(context).textTheme.titleLarge!.copyWith(
