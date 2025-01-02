@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:shopping_app/widgets/scroallableWidgets/productsGridview.dart';
-import 'package:shopping_app/widgets/scroallableWidgets/productsPageView.dart';
-import 'package:shopping_app/widgets/scroallableWidgets/productslistview.dart';
+import 'package:shopping_app/widgets/scroableWidgets/productsGridview.dart';
+import 'package:shopping_app/widgets/scroableWidgets/productsPageView.dart';
+import 'package:shopping_app/widgets/scroableWidgets/productslistview.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -11,10 +11,6 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Sprints Shopping App'),
-        centerTitle: true,
-        titleTextStyle: Theme.of(context)
-            .textTheme
-            .titleLarge, // using custom style initialized in main.
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0), // Outer padding of the body.
@@ -24,7 +20,6 @@ class HomePage extends StatelessWidget {
             crossAxisAlignment:
                 CrossAxisAlignment.start, // Aligns content to the start.
             children: [
-            
               Text(
                 "Our Products",
                 style: Theme.of(context).textTheme.titleLarge!.copyWith(

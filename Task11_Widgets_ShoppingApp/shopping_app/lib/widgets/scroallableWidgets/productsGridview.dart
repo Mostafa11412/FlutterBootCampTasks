@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shopping_app/productItem.dart';
+import 'package:shopping_app/widgets/productItem.dart';
 
 class productsGridView extends StatelessWidget {
   const productsGridView({super.key});
