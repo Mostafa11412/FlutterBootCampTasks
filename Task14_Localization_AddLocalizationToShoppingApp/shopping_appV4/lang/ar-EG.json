@@ -1,0 +1,21 @@
+{
+    "our_products": "منتجاتنا",
+    "hot_offers": "احدث العروض",
+    "AppBarTitle": "تطبيق المتجر",
+    "ProductTestName": "اسم تجريبي",
+    "itemAddedtoCart": "تمت اضافة المنتج للسلة",
+    "FullName": "الاسم الكامل",
+    "EnterFull-Name":"من فضلك ادخل الاسم الكامل",
+    "email": "البريد الالكتروني",
+    "EnterEmail":"من فضلك ادخل البريد الالكتروني",
+    "Pasword": "كلمة السر",
+    "EnterPasword":"من فضلك ادخل كلمة السر",
+    "CPasword": "تأكيد كلمة السر",
+    "reEnterPasword":"من فضلك أعد ادخال كلمة السر",
+    "SignUp":"اشتراك",
+    "InvalidData":"تم ادخال بيانات خاطئة",
+    "AccountCreated":"تم انشاء الحساب بنجاح",
+    "Close":"اغلاق",
+    "changeLanguage":"تغيير اللغة"
+
+}
