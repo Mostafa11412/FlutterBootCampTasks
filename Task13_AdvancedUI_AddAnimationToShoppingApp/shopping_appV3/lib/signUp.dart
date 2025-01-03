@@ -230,8 +230,8 @@ navigationAnimation(BuildContext context) {
     transitionsBuilder: (context, animation, secondaryAnimation, child) =>
         FadeTransition(
       //build transition using built in fade transition widget to make fade in and fade out.
-      // animation will be fade in transition to home page.
-      // secondaryAnimation fade out transiton when pop back from home page to signUp.
+      // animation will be fade out transition to home page.
+      // secondaryAnimation fade in transiton when pop back from home page to signUp.
       opacity: animation,
       child: child,
     ),

@@ -1,6 +1,8 @@
 This project is solution for task 13.
 
-You will find animation navigation Function which is answer od task13 in bottom of sign up page.
+You will find animation navigation Function in the bottom of signUp file which is answer of task13.
+
+This function is called in on pressed of close text button.
 
 This is shopping app version3 flutter project contains home page with page view, grid view and listView combined in a column additional to text form field and button widgets with sign in, sign up screens for sign up ui and logic.
 
