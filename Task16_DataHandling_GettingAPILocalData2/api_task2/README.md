@@ -1,16 +1,10 @@
-# api_task2
+This project is solution for task 16.
+Please note that i used dummy api for users because provided emoloyee api link wasnt working.
 
-A new Flutter project.
+This task is to fetch data from api then store it locally and then display it.
 
-## Getting Started
+userService file contains logic responsible for fetching data with dio and store it locally also to get cashed data and return it to ui.
 
-This project is a starting point for a Flutter application.
+usermodel file contains data class model to store user into it.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+home page is main flutter screen to display users data into list and navigate to user details page when clicked.
