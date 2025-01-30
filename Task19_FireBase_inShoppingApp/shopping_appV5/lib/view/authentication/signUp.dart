@@ -2,9 +2,9 @@
 
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:shopping_app/authentication/signIn.dart';
+import 'package:shopping_app/view/authentication/signIn.dart';
 import 'package:shopping_app/fireBase_Services/fireBaseServices.dart';
-import 'package:shopping_app/homePage.dart';
+import 'package:shopping_app/view/homePage.dart';
 import 'package:shopping_app/widgets/customButton.dart';
 import 'package:shopping_app/widgets/customFormFeild.dart';
 import 'package:shopping_app/widgets/languageTriggerButton.dart';

@@ -1,8 +1,8 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:shopping_app/authentication/signIn.dart';
-import 'package:shopping_app/firebase_options.dart';
+import 'package:shopping_app/view/authentication/signIn.dart';
+import 'package:shopping_app/fireBase_Services/firebase_options.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

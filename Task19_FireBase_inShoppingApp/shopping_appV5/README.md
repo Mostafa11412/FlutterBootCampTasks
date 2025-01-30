@@ -1,16 +1,53 @@
-This project is solution for task 19.
+# Shopping App
 
-You will find ar-EG.json and en-Us.json files added in lang folder to setup every text translation in each locale or language.
+This is a Flutter-based shopping application that allows users to sign up, sign in, and browse products. The app integrates with Firebase for authentication and supports multi-language functionality using the `easy_localization` package.
 
-Also you will find language trigger button in widgets folder to use it in app bar in home page and sign up.
+## Features
 
-Every text displayed in ui will be wraper with tr(tex key) to assign the value of its translation from suitable json file.
+- **User Authentication**: Sign up and sign in using Firebase Authentication.
+- **Multi-language Support**: Supports English and Arabic languages.
+- **Product Browsing**: View products in different layouts (PageView, GridView, ListView).
+- **Responsive Design**: Adapts to different screen sizes and orientations.
+`
 
+## Project Structure
 
-You will find signUp folder for new fueaters added to version2.
+- **`lib/`**: Contains the main application code.
+  - **`view/`**: Contains the UI screens.
+    - **`authentication/`**: Sign-in and sign-up screens.
+    - **`homePage.dart`**: Main screen after authentication.
+  - **`widgets/`**: Reusable widgets like buttons, form fields, and product displays.
+  - **`fireBase_Services/`**: Firebase authentication services.
+- **`lang/`**: Contains localization files for English and Arabic.
+- **`main.dart`**: Entry point of the application.
 
-Each widget is in seperated file.
+## Usage
 
-This is shopping app version 5 flutter project contains new fire base authintecation in firebase services folder and file.
+### Sign Up
+1. Open the app.
+2. Navigate to the Sign Up screen.
+3. Enter your full name, email, and password.
+4. Confirm your password and submit the form.
+5. Upon successful registration, you will be redirected to the home page.
 
-please note that you need to upgrade flutter to latest version to run this code because of using new fueaturs like seperator in column.
+### Sign In
+1. Open the app.
+2. Enter your email and password.
+3. Submit the form.
+4. Upon successful login, you will be redirected to the home page.
+
+### Browsing Products
+- **PageView**: Swipe horizontally to view featured products.
+- **GridView**: View products in a grid layout.
+- **ListView**: Scroll horizontally to view hot offers.
+
+## Localization
+
+The app supports English and Arabic. The language can be changed using the language trigger button in the app bar.
+
+## Dependencies
+
+- **`easy_localization`**: For multi-language support.
+- **`firebase_core`**: For Firebase integration.
+- **`firebase_auth`**: For user authentication.
+

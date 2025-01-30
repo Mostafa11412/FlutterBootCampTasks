@@ -16,12 +16,11 @@ class HomePage extends StatelessWidget {
         actions: const [LanguageTriggerButton()],
       ),
       body: Padding(
-        padding: const EdgeInsets.all(8.0), // Outer padding of the body.
+        padding: const EdgeInsets.all(8.0),
         child: SingleChildScrollView(
           child: Column(
             spacing: 10,
-            crossAxisAlignment:
-                CrossAxisAlignment.start, // Aligns content to the start.
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
                 tr("our_products"),
