@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.shopping_app_v5"
+    namespace = "com.example.audio_task"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -21,7 +21,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.shopping_app"
+        applicationId = "com.example.audio_task"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = 23
