@@ -1,16 +1,44 @@
-# clean_architutre_task
+# Clean Architecture Task
 
-A new Flutter project.
+A Flutter project implementing **Clean Architecture** with **Cubit for State Management**, **Dio for API requests**, and **Injectable for Dependency Injection**.
 
-## Getting Started
+## 💂 Project Structure
 
-This project is a starting point for a Flutter application.
+The project follows **Clean Architecture** principles, separating concerns into different layers:
 
-A few resources to get you started if this is your first Flutter project:
+```
+lib/
+│── core/                  # Core utilities and DI setup
+│   ├── di/                # Dependency Injection setup
+│   │   ├── di.dart
+│   │   ├── di.config.dart
+│── data/                  # Data layer (API calls, local DB)
+│   ├── dataSource/        # Data sources (remote/local)
+│   │   ├── users_Dao.dart
+│   ├── model/             # Data models
+│   │   ├── user_model.dart
+│── domain/                # Business logic layer (Entities & UseCases)
+│   ├── entities/          # Entity definitions
+│   │   ├── user_entity.dart
+│── repo/                  # Repository implementation
+│   ├── getUsers.dart
+│── global_widgets/        # Shared UI components
+│   ├── custom_button.dart
+│   ├── text_form_field.dart
+│── view/                  # UI (presentation layer)
+│   ├── home/
+│   │   ├── cubit/         # State Management (Cubit)
+│   │   │   ├── user_cubit.dart
+│   │   │   ├── user_state.dart
+│   │   ├── home_page.dart
+│── main.dart              # App entry point
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## 🛠️ Tech Stack
+- **State Management**: Flutter Bloc (Cubit)
+- **API Calls**: Dio
+- **Dependency Injection**: Injectable + GetIt
+- **UI**: Flutter ScreenUtil (for responsive design)
+
