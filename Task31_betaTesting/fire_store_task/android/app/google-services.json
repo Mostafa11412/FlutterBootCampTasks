@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "926245157622",
-    "project_id": "fire-store-task",
-    "storage_bucket": "fire-store-task.firebasestorage.app"
+    "project_number": "595753295684",
+    "project_id": "shopping-app-8332f",
+    "storage_bucket": "shopping-app-8332f.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:926245157622:android:c4cff67b2be1379f9fcad7",
+        "mobilesdk_app_id": "1:595753295684:android:80d4101233c097ea234111",
         "android_client_info": {
-          "package_name": "com.task20.app"
+          "package_name": "com.shoppingApp.com"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBIacq20mASR5V8thr3xGkYh9TPHMVtBcg"
+          "current_key": "AIzaSyByRDiYrHKTxtT_hW_wxPMxA9L1OT_vpDU"
         }
       ],
       "services": {

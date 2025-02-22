@@ -5,10 +5,10 @@ packages:
     dependency: transitive
     description:
       name: _flutterfire_internals
-      sha256: "401dd18096f5eaa140404ccbbbf346f83c850e6f27049698a7ee75a3488ddb32"
+      sha256: e4f2a7ef31b0ab2c89d2bde35ef3e6e6aff1dce5e66069c6540b0e9cfe33ee6b
       url: "https://pub.dev"
     source: hosted
-    version: "1.3.52"
+    version: "1.3.50"
   async:
     dependency: transitive
     description:
@@ -97,46 +97,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.3.1"
-  firebase_app_distribution:
-    dependency: "direct main"
-    description:
-      name: firebase_app_distribution
-      sha256: "4e07c9facf39e15fa9fb22b5250e2bc5a954d413d469681a5f19b5dd30a3b721"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.1.1"
-  firebase_app_distribution_android:
-    dependency: transitive
-    description:
-      name: firebase_app_distribution_android
-      sha256: "8dc36654cae4dd001c0719cd16489239aa8c77f7d32792b3a28d7cd065a1dff8"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.1.1"
-  firebase_app_distribution_ios:
-    dependency: transitive
-    description:
-      name: firebase_app_distribution_ios
-      sha256: "004c67812132de3e97047b13a390d708226539e35dc80e52c635ee8e30d4e411"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.1.1"
-  firebase_app_distribution_platform_interface:
-    dependency: transitive
-    description:
-      name: firebase_app_distribution_platform_interface
-      sha256: "7aa2bf8a7a6d839cc9e0f1657e21694d9ed1243c7c951b4d294efe9e603dfa7f"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.1.1"
   firebase_core:
     dependency: "direct main"
     description:
       name: firebase_core
-      sha256: "6a4ea0f1d533443c8afc3d809cd36a4e2b8f2e2e711f697974f55bb31d71d1b8"
+      sha256: d851c1ca98fd5a4c07c747f8c65dacc2edd84a4d9ac055d32a5f0342529069f5
       url: "https://pub.dev"
     source: hosted
-    version: "3.12.0"
+    version: "3.10.1"
   firebase_core_platform_interface:
     dependency: transitive
     description:
@@ -149,26 +117,10 @@ packages:
     dependency: transitive
     description:
       name: firebase_core_web
-      sha256: e47f5c2776de018fa19bc9f6f723df136bc75cdb164d64b65305babd715c8e41
+      sha256: fbc008cf390d909b823763064b63afefe9f02d8afdb13eb3f485b871afee956b
       url: "https://pub.dev"
     source: hosted
-    version: "2.21.0"
-  firebase_crashlytics:
-    dependency: "direct main"
-    description:
-      name: firebase_crashlytics
-      sha256: "3d4dd8406ee3be734a027503af7dd8d89ad5bddbaf83f4189946ce5ecc0f6aa6"
-      url: "https://pub.dev"
-    source: hosted
-    version: "4.3.3"
-  firebase_crashlytics_platform_interface:
-    dependency: transitive
-    description:
-      name: firebase_crashlytics_platform_interface
-      sha256: "3a2b20b4b486fc897e3d89ba785ce2df6e819b4486df660ef0cce499b3d760ca"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.8.3"
+    version: "2.19.0"
   flutter:
     dependency: "direct main"
     description: flutter

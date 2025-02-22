@@ -1,5 +1,20 @@
 # Firestore Task
 
+## Distribution
+
+This project has been successfully built and distributed. Below are the details of the distribution process:
+
+- The release APK was built using Gradle, generating a release build located at:
+  ```
+  build/app/outputs/flutter-apk/app-release.apk (20.4MB)
+  ```
+  ![Build Success Screenshot](Screenshot%202025-02-23%20001933.png)
+
+- The app has been uploaded for beta testing, and invitations have been sent out. Below is the current status of the test distribution:
+  ![Beta Testing Screenshot](Screenshot%202025-02-23%20010344.png)
+
+## Overview
+
 This project is a Flutter application that demonstrates how to interact with Firebase Firestore to save and retrieve user data. It includes a form for inputting user details (name, age, and hobby) and displays the saved data in a list.
 
 ## Features
@@ -12,8 +27,7 @@ This project is a Flutter application that demonstrates how to interact with Fir
 
 ## Getting Started
 
-
-## Project Structure
+### Project Structure
 
 - **`lib/`**: Contains the main application code.
 
@@ -52,8 +66,4 @@ This project is a Flutter application that demonstrates how to interact with Fir
 - `flutter_bloc`: For state management.
 - `firebase_core`: For Firebase core functionality.
 - `cloud_firestore`: For Firestore database operations.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
