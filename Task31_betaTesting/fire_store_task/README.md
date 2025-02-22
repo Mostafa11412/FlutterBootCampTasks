@@ -8,10 +8,10 @@ This project has been successfully built and distributed. Below are the details 
   ```
   build/app/outputs/flutter-apk/app-release.apk (20.4MB)
   ```
-  ![Build Success Screenshot](F:\Studying\Sprints\Tasks\FlutterBootCampTasks\Task31_betaTesting\TaskScreenShot (1).png)
+  ![Build Success Screenshot](Task31_betaTesting\TaskScreenShot (1).png)
 
 - The app has been uploaded for beta testing, and invitations have been sent out. Below is the current status of the test distribution:
-  ![Beta Testing Screenshot](F:\Studying\Sprints\Tasks\FlutterBootCampTasks\Task31_betaTesting\TaskScreenShot (2).png)
+  ![Beta Testing Screenshot](Task31_betaTesting\TaskScreenShot (2).png)
 
 ## Overview
 
